@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: petcommerce-system
+  description: The overall system for the eCommerce platform
+spec:
+  owner: team-petcommerce
+  domain: ecommerce
+  lifecycle: production
+  system: ecommerce
+  hasPart:
+    - component: AnimalKingdom
+    - component: SpringPetClinic
+
