@@ -5,7 +5,7 @@ metadata:
   description: The overall system for the eCommerce platform
 spec:
   owner: team-petcommerce
-  domain: ecommerce
+  domain: pet-ecommerce
   lifecycle: production
   system: ecommerce
   hasPart:
